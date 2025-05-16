@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. AFM Jalal Ahamed - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/framer-motion/dist/framer-motion.umd.js"></script>
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #f7f7f7; }
+        .container { width: 90%; margin: auto; overflow: hidden; padding: 20px; }
+        header { background: #0056b3; color: #fff; padding: 20px 0; text-align: center; border-radius: 0 0 20px 20px; }
+        header h1 { margin: 0; font-size: 3em; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 20px; }
+        nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+        section { margin-bottom: 20px; padding: 20px; background-color: #fff; border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        footer { background: #333; color: #fff; text-align: center; padding: 20px; margin-top: 20px; border-radius: 20px; }
+        .profile-img { width: 200px; border-radius: 50%; margin-bottom: 20px; border: 5px solid #0056b3; }
+        .btn { background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 10px; font-weight: bold; }
+        .btn:hover { background-color: #0056b3; }
+        h2 { color: #0056b3; margin-bottom: 10px; }
+        .publication-list { max-height: 300px; overflow-y: auto; margin-top: 10px; }
+        .publication-list li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dr. AFM Jalal Ahamed</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Dr. AFM Jalal Ahamed" class="profile-img">
+        <p>I am an Associate Professor of Marketing at the University of Skövde, Sweden, with over a decade of international teaching and research experience. My research spans marketing, consumer behavior, and financial well-being, with numerous publications in high-impact journals.</p>
+        <a href="/mnt/data/Jalal Ahamed_CV.doc" class="btn">Download CV</a>
+    </section>
+    <section id="research">
+        <h2>Research</h2>
+        <p>My research interests include consumer behavior, digital marketing, financial anxiety, and exporter-importer relationships. I have contributed to numerous studies in these fields and secured significant research funding.</p>
+    </section>
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <p>I have taught a wide range of courses, including Digital Marketing, Strategic Marketing, and International Marketing, across several countries including Sweden, Indonesia, Poland, and the Czech Republic.</p>
+    </section>
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul class="publication-list">
+            <li>When East Meets West in Building Organisational Resilience (2024)</li>
+            <li>Financial Anxiety of University Students in Poland and Czechia (2024)</li>
+            <li>Role of Social Comparison Orientation on Financial Management Behavior (2024)</li>
+            <li>Retirement Planning: A Moderated Mediation Model (2024)</li>
+            <li>Digital Transformation as a Means of Achieving SME Resilience (2024)</li>
+            <li>Driving Performance in Exporter-Importer Exchange Relationships (2023)</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: jalal.ahamed@his.se</p>
+        <p>Office: +46-500-44-8712 | Mobile: +46-768834719</p>
+        <p>University of Skövde, Högskolevägen 8, SE-541 28 Skövde, Sweden</p>
+    </section>
+    <footer>
+        <p>Connect with me on <a href="https://scholar.google.se/citations?user=gUthx_QAAAAJ&hl=en" target="_blank">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Afm_Jalal_Ahamed" target="_blank">ResearchGate</a> | <a href="https://www.linkedin.com/in/jalal-ahamed" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
